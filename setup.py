@@ -6,9 +6,9 @@ setup(
     entry_points={
         'z3c.autoinclude.plugin': 'target = plone',
     },
-    name='diazotheme.sunburst',
+    name='plontheme.diazo_sunburst',
     namespace_packages=[
-        'diazotheme',
+        'plonetheme',
     ],
     packages=find_packages(),
 )
