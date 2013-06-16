@@ -6,7 +6,7 @@ setup(
     entry_points={
         'z3c.autoinclude.plugin': 'target = plone',
     },
-    name='plontheme.diazo_sunburst',
+    name='plonetheme.diazo_sunburst',
     namespace_packages=[
         'plonetheme',
     ],
