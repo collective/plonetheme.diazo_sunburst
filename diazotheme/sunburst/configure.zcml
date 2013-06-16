@@ -7,6 +7,9 @@
         directory="profiles/default"
         />
 
-    <plone:static directory="theme" />
+    <plone:static
+        directory="theme"
+        type="theme"
+        />
 
 </configure>
