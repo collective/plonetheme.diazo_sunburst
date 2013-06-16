@@ -4,7 +4,11 @@
 
 
     <genericsetup:registerProfile
+        name="default"
+        description="Plone's sunburst theme reimplemented in Diazo"
         directory="profiles/default"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        title="diazotheme.sunburst"
         />
 
     <plone:static
