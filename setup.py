@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     entry_points={
-        'z3c.autoinclude.plugins': 'target = plone',
+        'z3c.autoinclude.plugin': 'target = plone',
     },
     name='diazotheme.sunburst',
     namespace_packages=[

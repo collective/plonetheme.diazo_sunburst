@@ -1,5 +1,11 @@
 <configure
-    xmlns:plone="http://namespace.plone.org/plone">
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+
+    <genericsetup:registerProfile
+        directory="profiles/default"
+        />
 
     <plone:static directory="theme" />
 
