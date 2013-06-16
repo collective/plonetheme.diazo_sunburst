@@ -8,7 +8,7 @@
 
         <!-- Based on Twitter Bootstrap theme in themeeditor -->
 
-        <theme href="index.html" />
+        <theme href="theme.html" />
 
         <!-- Head elements -->
         <replace css:theme="html head title" css:content="html head title" />
