@@ -40,7 +40,7 @@
 
         <!-- Footer -->
         <replace css:theme-children="#portal-footer" css:content-children="#portal-footer" />
-        <after css:theme-children="#portal-siteactions" css:content="#portal-siteactions" />
+        <replace css:theme-children="#portal-siteactions" css:content="#portal-siteactions" />
 
     </rules>
 
