@@ -13,7 +13,6 @@
         <!-- Head elements -->
         <replace css:theme="html head title" css:content="html head title" />
         <after css:theme-children="html head" css:content="html head base" />
-        <after css:theme-children="html head" css:content="html head script" />
 
         <!-- Logo -->
         <copy attributes="href" css:theme="#portal-logo" css:content="#portal-logo" />
