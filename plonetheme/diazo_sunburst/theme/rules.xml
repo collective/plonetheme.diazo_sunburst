@@ -29,7 +29,7 @@
         <copy attributes="name" css:theme="#portal-searchbox form .searchField" css:content="#portal-searchbox form .searchField" />
 
         <!-- Edit bar -->
-        <before css:theme-children="#edit-bar" css:content="#edit-bar" />
+        <replace css:theme="#edit-bar" css:content="#edit-bar" />
 
         <!-- Portal messages -->
 
