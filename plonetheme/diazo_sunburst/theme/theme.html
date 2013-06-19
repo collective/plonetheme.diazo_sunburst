@@ -1,27 +1,8 @@
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-  
-    
-    
-    
-    
-
-
   <head>
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
     <meta name="generator" content="Plone - http://plone.org" />
-
-    
-      <base href="http://localhost:8080/Plone/front-page" /><!--[if lt IE 7]></base><![endif]-->
-    
-
-    
-        <meta content="Congratulations! You have successfully installed Plone." name="description" />
-
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/member.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
@@ -34,206 +15,94 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/navtree.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/invisibles.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/forms.css" />
-
-
-<title>Welcome to Plone &mdash; Site</title>
-
-        
-    <link rel="author" href="http://localhost:8080/Plone/author/admin" title="Author information" />
-
-
-
+    <title>Welcome to Plone &mdash; Site</title>
     <link rel="shortcut icon" type="image/x-icon" href="http://localhost:8080/Plone/favicon.ico" />
-    <link rel="apple-touch-icon" href="http://localhost:8080/Plone/touch_icon.png" />
-
-
-
-
-
-    <link rel="alternate" href="http://localhost:8080/Plone/RSS" title="Site - RSS 1.0" type="application/rss+xml" />
-
-    <link rel="alternate" href="http://localhost:8080/Plone/rss.xml" title="Site - RSS 2.0" type="application/rss+xml" />
-
-    <link rel="alternate" href="http://localhost:8080/Plone/atom.xml" title="Site - Atom" type="application/rss+xml" />
-
-
-    <link rel="search" href="http://localhost:8080/Plone/@@search" title="Search this site" />
-
-
-
-        
-        
-
-        
-        
-
-        
-        
-
-        
-        
-    
-
   </head>
-
   <body class="template-document_view portaltype-document site-Plone section-front-page icons-on userrole-manager userrole-authenticated userrole-owner" dir="ltr">
     <div id="visual-portal-wrapper">
-
       <div id="portal-top">
         <div id="portal-header">
-    <p class="hiddenStructure">
-  <a accesskey="2" href="http://localhost:8080/Plone#content">Skip to content.</a> |
+            <p class="hiddenStructure"></p>
+            <div id="portal-personaltools-wrapper">
+                <p class="hiddenStructure">Personal tools</p>
+                <dl class="actionMenu deactivated" id="portal-personaltools">
+                  <dt class="actionMenuHeader">
+                    <a id="user-name" href="http://localhost:8080/Plone/useractions">admin</a>
+                  </dt>
+                  <dd class="actionMenuContent">
+                    <ul>
+                        <li id="personaltools-dashboard">
+                            <a href="http://localhost:8080/Plone/dashboard">Dashboard</a>
+                        </li>
+                        <li id="personaltools-preferences">
+                            <a href="http://localhost:8080/Plone/@@personal-preferences">Preferences</a>
+                        </li>
+                        <li id="personaltools-plone_setup">
+                            <a href="http://localhost:8080/Plone/@@overview-controlpanel">Site Setup</a>
+                        </li>
+                        <li id="personaltools-logout">
+                            <a href="http://localhost:8080/Plone/logout">Log out</a>
+                        </li>
+                    </ul>
+                  </dd>
+                </dl>
+            </div>
+            <div id="portal-searchbox">
+                <form id="searchGadget_form" action="http://localhost:8080/Plone/@@search">
+                    <div class="LSBox">
+                    <label class="hiddenStructure" for="searchGadget">Search Site</label>
+                    <input name="SearchableText" type="text" size="18" title="Search Site" placeholder="Search Site" accesskey="4" class="searchField" id="searchGadget" />
+                    <input class="searchButton" type="submit" value="Search" />
+                    <div class="searchSection">
+                        <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/Plone" />
+                        <label for="searchbox_currentfolder_only" style="cursor: pointer">
+                            only in current section
+                        </label>
+                    </div>
+                    <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
+                    </div>
+                </form>
+                <div id="portal-advanced-search" class="hiddenStructure">
+                    <a href="http://localhost:8080/Plone/@@search" accesskey="5">Advanced Search&hellip;
+                    </a>
+                </div>
+            </div>
 
-  <a accesskey="6" href="http://localhost:8080/Plone#portal-globalnav">Skip to navigation</a>
-</p>
+            <a id="portal-logo" title="Site" accesskey="1" href="http://localhost:8080/Plone"><img src="images/logo.png" alt="Site" title="Site" height="57" width="252" /></a>
+            <p class="hiddenStructure">Navigation</p>
 
-<div id="portal-personaltools-wrapper">
-
-<p class="hiddenStructure">Personal tools</p>
-
-<dl class="actionMenu deactivated" id="portal-personaltools">
-  
-  <dt class="actionMenuHeader">
-    <a id="user-name" href="http://localhost:8080/Plone/useractions">admin</a>
-  </dt>
-  <dd class="actionMenuContent">
-    <ul>
-        <li id="personaltools-dashboard">
-            <a href="http://localhost:8080/Plone/dashboard">Dashboard</a>
-        </li>
-        <li id="personaltools-preferences">
-            <a href="http://localhost:8080/Plone/@@personal-preferences">Preferences</a>
-        </li>
-        <li id="personaltools-plone_setup">
-            <a href="http://localhost:8080/Plone/@@overview-controlpanel">Site Setup</a>
-        </li>
-        <li id="personaltools-logout">
-            <a href="http://localhost:8080/Plone/logout">Log out</a>
-        </li>
-    </ul>
-  </dd>
-  
-</dl>
-
-
-
-</div>
-
-
-
-<div id="portal-searchbox">
-
-    <form id="searchGadget_form" action="http://localhost:8080/Plone/@@search">
-
-        <div class="LSBox">
-        <label class="hiddenStructure" for="searchGadget">Search Site</label>
-
-        <input name="SearchableText" type="text" size="18" title="Search Site" placeholder="Search Site" accesskey="4" class="searchField" id="searchGadget" />
-
-        <input class="searchButton" type="submit" value="Search" />
-
-        <div class="searchSection">
-            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/Plone" />
-            <label for="searchbox_currentfolder_only" style="cursor: pointer">
-                only in current section
-            </label>
+            <ul id="portal-globalnav"><li id="portaltab-index_html" class="selected"><a href="http://localhost:8080/Plone" title="">Home</a></li><li id="portaltab-news" class="plain"><a href="http://localhost:8080/Plone/news" title="Site News">News</a></li><li id="portaltab-events" class="plain"><a href="http://localhost:8080/Plone/events" title="Site Events">Events</a></li><li id="portaltab-Members" class="plain"><a href="http://localhost:8080/Plone/Members" title="Site Users">Users</a></li></ul>
         </div>
-
-        <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
-        </div>
-    </form>
-
-    <div id="portal-advanced-search" class="hiddenStructure">
-        <a href="http://localhost:8080/Plone/@@search" accesskey="5">
-            Advanced Search&hellip;
-        </a>
-    </div>
-
-</div>
-
-<a id="portal-logo" title="Site" accesskey="1" href="http://localhost:8080/Plone">
-    <img src="++theme++plonetheme.diazo_sunburst/images/logo.png" alt="Site" title="Site" height="57" width="252" /></a>
-
-
-    <p class="hiddenStructure">Navigation</p>
-
-    <ul id="portal-globalnav"><li id="portaltab-index_html" class="selected"><a href="http://localhost:8080/Plone" title="">Home</a></li><li id="portaltab-news" class="plain"><a href="http://localhost:8080/Plone/news" title="Site News">News</a></li><li id="portaltab-events" class="plain"><a href="http://localhost:8080/Plone/events" title="Site Events">Events</a></li><li id="portaltab-Members" class="plain"><a href="http://localhost:8080/Plone/Members" title="Site Users">Users</a></li></ul>
-
-
-</div>
-
       </div>
-
       <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
-
       <table id="portal-columns">
         <tbody>
           <tr>
-            
-                
-                
-                
-            
-
-            
             <td id="portal-column-content">
+              <div id="viewlet-above-content"><div id="portal-breadcrumbs"><span id="breadcrumbs-you-are-here">You are here:</span><span id="breadcrumbs-home"><a href="http://localhost:8080/Plone">Home</a></span></div>
 
-              <div id="viewlet-above-content"><div id="portal-breadcrumbs">
-
-    <span id="breadcrumbs-you-are-here">You
-are here:</span>
-    <span id="breadcrumbs-home">
-        <a href="http://localhost:8080/Plone">Home</a>
-        
-    </span>
-
-</div>
-
-<div id="plone-lock-status">
-  
-</div>
-</div>
+              <div id="plone-lock-status"></div>
+      </div>
 
               
-                <div class="documentEditable">
+      <div class="documentEditable">
+        <div id="edit-bar"></div>
+        <span id="contentTopLeft"></span>
+        <span id="contentTopRight"></span>
+        <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+            <dt>Info</dt>
+            <dd></dd>
+        </dl>
 
-                    <div id="edit-bar">
-
-    
-
-</div>
-
-                    <span id="contentTopLeft"></span>
-                    <span id="contentTopRight"></span>
-
-                    
-
-    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
-        <dt>Info</dt>
-        <dd></dd>
-    </dl>
-
-
-
-                    
-                    <div id="content">
-                      
-                      
-
-                        
-                            
-                            
-                                
-                                
-            
-                <h1 id="parent-fieldname-title" class="documentFirstHeading">
-                    Welcome to Plone
-                </h1>
+        <div id="content">
+        <h1 id="parent-fieldname-title" class="documentFirstHeading">
+            Welcome to Plone
+        </h1>
             
             
         
                             
-                            <div class="documentByLine" id="plone-document-byline">
+        <div class="documentByLine" id="plone-document-byline">
   
 
   
