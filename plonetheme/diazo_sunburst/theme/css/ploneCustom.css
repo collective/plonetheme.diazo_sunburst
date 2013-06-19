@@ -57,9 +57,3 @@ dl.actionMenu a {
     #content a:link { color: &dtml-linkColor;; }
 </dtml-with>
 */
-
-
-
-body {
-    background: url('images/Preparation_of_diazomalonic_acid_ester_by_Dimroth.svg')
-}
