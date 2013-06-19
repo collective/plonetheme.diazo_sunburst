@@ -3,6 +3,10 @@
     xmlns:css="http://namespaces.plone.org/diazo/css">
 
     <theme href="index.html" />
+
+    <replace css:theme="html head title" css:content="html head title" />
+    <replace css:theme="html head base" css:content="html head base" />
+
     <replace css:content="#portal-colophon" css:theme="#portal-colophon" /> 
     <replace css:content="#portal-column-content" css:theme="#portal-column-content" /> 
     <replace css:content="#portal-column-one" css:theme="#portal-column-one" /> 
