@@ -14,4 +14,8 @@
     <replace css:content="#portal-searchbox" css:theme="#portal-searchbox" /> 
     <replace css:content="#portal-siteactions" css:theme="#portal-siteactions" /> 
 
+    <!-- Uncomment to remove diazo branding
+    <drop css:theme="#diazo_branding" /> 
+    -->
+
 </rules>
