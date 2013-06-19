@@ -26,6 +26,6 @@ setup(
     ],
     packages=find_packages(),
     url="https://github.com/aclark4life/plonetheme.diazo_sunburst",
-    version="0.0.1",
+    version="0.0.2",
     zip_safe=False,
 )
