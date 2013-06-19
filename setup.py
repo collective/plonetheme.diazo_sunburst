@@ -11,6 +11,7 @@ setup(
     ],
     description="Plone 4's 'Sunburst' theme reimplemented in Diazo",
     keywords='Diazo Modern Plone Sunburst Theme Theming',
+    include_package_data=True,
     long_description=(
         open("README.rst").read() + '\n' +
         open("HISTORY.txt").read()
