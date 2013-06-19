@@ -18,4 +18,7 @@
     <drop css:theme="#diazo_branding" /> 
     -->
 
+    <!-- Presentation view not working -->
+    <drop css:content="#link-presentation" />
+
 </rules>
