@@ -3,5 +3,8 @@
     xmlns:css="http://namespaces.plone.org/diazo/css">
 
     <theme href="theme.html" />
+    <replace css:content="#portal-column-content" css:theme="#portal-column-content" /> 
+    <replace css:content="#portal-column-one" css:theme="#portal-column-one" /> 
+    <replace css:content="#portal-column-two" css:theme="#portal-column-two" /> 
 
 </rules>
