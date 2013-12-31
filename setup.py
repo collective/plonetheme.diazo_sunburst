@@ -14,7 +14,7 @@ setup(
     include_package_data=True,
     long_description=(
         open("README.rst").read() + '\n' +
-        open("HISTORY.txt").read()
+        open("CHANGES.rst").read()
     ),
     entry_points={
         'z3c.autoinclude.plugin': 'target = plone',
