@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <object name="portal_skins" meta_type="Plone Skins Tool">
- <object name="plonetheme.diazo_sunburst" meta_type="Filesystem Directory View"
+ <object name="diazo_sunburst" meta_type="Filesystem Directory View"
          directory="plonetheme.diazo_sunburst:skins/diazo_sunburst" />
   <skin-path name="*">
     <layer name="diazo_sunburst" insert-after="custom"/>
