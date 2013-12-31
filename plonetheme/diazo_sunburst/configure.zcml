@@ -6,10 +6,10 @@
 
     <genericsetup:registerProfile
         name="default"
-        description="Plone's Sunburst Theme reimplemented in Diazo"
+        description="Plone 4's default Sunburst Theme reimplemented in Diazo"
         directory="profiles/default"
         provides="Products.GenericSetup.interfaces.EXTENSION"
-        title="Sunburst Theme (Diazo)"
+        title="Diazo Sunburst"
         />
 
     <plone:static
