@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_css">
+  <!-- These are the Sunburst-styles which we want to include in our custom
+       theme. They are configured to be in the "default" bundle.
+       Note: by default, all styles land in the "default" bundle. So this
+       configuration isn't strictly necessary. -->
+  <stylesheet bundle="default" id="authoring.css"/>
+  <stylesheet bundle="default" id="base.css"/>
+  <stylesheet bundle="default" id="controlpanel.css"/>
+  <stylesheet bundle="default" id="forms.css"/>
+  <stylesheet bundle="default" id="IEFixes.css"/>
+  <stylesheet bundle="default" id="member.css"/>
+  <stylesheet bundle="default" id="reset.css"/>
+  <stylesheet bundle="default" id="RTL.css"/>
+</object>
