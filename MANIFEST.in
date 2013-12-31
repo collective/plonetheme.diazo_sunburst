@@ -1,5 +1,5 @@
 include *.py
-include *.txt
+include *.rst
 include buildout.cfg
 recursive-include plonetheme *.cfg
 recursive-include plonetheme *.css
