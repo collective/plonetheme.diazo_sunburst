@@ -1,6 +1,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
+VERSION='0.0.4'
 
 setup(
     author="Alex Clark",
@@ -9,7 +10,7 @@ setup(
         'Framework :: Plone :: 4.3',
         'Programming Language :: Python :: 2.7',
     ],
-    description="Plone 4's 'Sunburst' theme reimplemented in Diazo",
+    description="Plone 4's default Sunburst theme reimplemented in Diazo",
     keywords='Diazo Modern Plone Sunburst Theme Theming',
     include_package_data=True,
     install_requires=[
@@ -30,6 +31,6 @@ setup(
     packages=find_packages(),
     test_suite='plonetheme.diazo_sunburst.tests.TestSuite',
     url="https://github.com/aclark4life/plonetheme.diazo_sunburst",
-    version="0.0.3",
+    version=VERSION,
     zip_safe=False,
 )

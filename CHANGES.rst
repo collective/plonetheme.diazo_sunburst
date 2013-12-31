@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.4 (2013-12-31)
+------------------
+
+- Provide old-style editing UI resources described in https://pypi.python.org/pypi/plonetheme.sunburst#how-to-depend-on-sunburst-for-your-custom-theme. Allows theme developers to use this theme as their Diazo base instead of Sunburst.
+
 0.0.3 (2013-06-29)
 ------------------
 
