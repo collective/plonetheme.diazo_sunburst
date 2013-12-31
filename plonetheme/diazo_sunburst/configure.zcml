@@ -1,4 +1,5 @@
 <configure
+    xmlns:cmf="http://namespaces.zope.org/cmf"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:plone="http://namespaces.plone.org/plone">
 
@@ -15,5 +16,7 @@
         directory="theme"
         type="theme"
         />
+
+    <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
 
 </configure>
