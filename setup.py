@@ -25,6 +25,7 @@ setup(
         'plonetheme',
     ],
     packages=find_packages(),
+    test_suite='plonetheme.diazo_sunburst.tests.TestSuite',
     url="https://github.com/aclark4life/plonetheme.diazo_sunburst",
     version="0.0.3",
     zip_safe=False,
