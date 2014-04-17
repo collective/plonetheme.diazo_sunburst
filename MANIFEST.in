@@ -1,8 +1,10 @@
 include *.py
 include *.rst
+include *.txt
 include buildout.cfg
 recursive-include plonetheme *.cfg
 recursive-include plonetheme *.css
+recursive-include plonetheme *.dtml
 recursive-include plonetheme *.html
 recursive-include plonetheme *.ico
 recursive-include plonetheme *.js
