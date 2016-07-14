@@ -4,7 +4,7 @@ Changelog
 0.1.2 (2016-07-14)
 ------------------
 
-- Clean up
+- Remove CSS & skins configuration
 
 0.1.1 (2016-07-14)
 ------------------
@@ -29,7 +29,7 @@ Changelog
 0.0.7 (2013-12-31)
 ------------------
 
-- Add missing skin path
+- Add missing skins path
 
 0.0.6 (2013-12-31)
 ------------------
