@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.1.2 (2016-07-14)
+------------------
+
+- Clean up
+
 0.1.1 (2016-07-14)
 ------------------
 
@@ -14,17 +19,17 @@ Changelog
 0.0.9 (2016-07-14)
 ------------------
 
-- Fix TinyMCE JS
+- Fix TinyMCE
 
 0.0.8 (2013-12-31)
 ------------------
 
-- Disable RTL stylesheet
+- Disable RTL styles 
 
 0.0.7 (2013-12-31)
 ------------------
 
-- Add missing skin path definition
+- Add missing skin path
 
 0.0.6 (2013-12-31)
 ------------------
@@ -34,7 +39,7 @@ Changelog
 0.0.5 (2013-12-31)
 ------------------
 
-- Provide editing resources described in https://pypi.python.org/pypi/plonetheme.sunburst#how-to-depend-on-sunburst-for-your-custom-theme. Allows theme developers to use this theme instead of Sunburst as their Diazo base. 
+- Configure bundle as described here: https://pypi.python.org/pypi/plonetheme.sunburst#how-to-depend-on-sunburst-for-your-custom-theme
 
 0.0.4 (2013-06-30)
 ------------------
@@ -42,7 +47,7 @@ Changelog
 0.0.3 (2013-06-29)
 ------------------
 
-- Fix spinner.gif/contenttypes_sprite.png. Use relative URLs for lack of a better option.
+- Fix spinner.gif, contenttypes_sprite.png with relative URLs
 
 0.0.2 (2013-06-19)
 ------------------
