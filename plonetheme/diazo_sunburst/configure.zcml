@@ -3,20 +3,17 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:plone="http://namespaces.plone.org/plone">
 
-
     <genericsetup:registerProfile
         name="default"
-        description="Plone 4's default Sunburst Theme reimplemented in Diazo"
+        description="Plone 4's default theme 'Sunburst' reimplemented with Diazo theme support"
         directory="profiles/default"
         provides="Products.GenericSetup.interfaces.EXTENSION"
-        title="Diazo Sunburst"
+        title="Diazo theme 'Sunburst'"
         />
 
     <plone:static
         directory="theme"
         type="theme"
         />
-
-    <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
 
 </configure>
