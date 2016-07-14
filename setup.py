@@ -21,7 +21,7 @@ setup(author="Alex Clark",
           'z3c.autoinclude.plugin': 'target = plone',
       },
       license="GPL2",
-      name='plonetheme.diazo_sunburst',
+      name='plonetheme.diazo-sunburst',
       namespace_packages=[
           'plonetheme',
       ],
