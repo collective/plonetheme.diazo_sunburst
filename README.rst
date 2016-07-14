@@ -1,6 +1,6 @@
-plonetheme.diazo_sunburst
-=========================
+Diazo theme 'Sunburst'
+======================
 
-This is Plone 4's default theme "Sunburst" reimplemented with Diazo.
+Plone 4's default theme 'Sunburst' reimplemented with Diazo theme support
 
 .. image:: plonetheme/diazo_sunburst/theme/images/preview.png
