@@ -1,0 +1,53 @@
+/* DropDown Menu Styles */
+
+#portal-top {
+  z-index:1;
+  }
+
+/*---------- BASIC STYLE one level ----------*/
+#portal-globalnav {
+  list-style-image:none;
+  position:relative; /* fix ie */
+  zoom:1; /* fix ie */
+  }
+#portal-globalnav:after {
+  content:"";
+  clear:both;
+  display:block;
+  visibility:hidden;
+  }
+#portal-globalnav li {
+  float:left;
+  position:relative;
+  }
+#portal-globalnav li a {
+  display:block;
+  border-top: 1px solid #fff;
+  }
+
+/*----- DropDown -----*/
+ul.submenu {
+  display:none;
+  left:0;
+  position:absolute;
+  top:100%;
+  }
+#portal-globalnav li:hover > ul.submenu {
+  display:block;
+  }
+ul.submenu li {
+  float:none;
+  margin:0;
+  }
+#portal-globalnav ul.submenu li a {
+  padding:0.5em 1.5em 0.5em 1em;
+  width:12em;
+  }
+ul.submenu ul {
+  top:0;
+  left:100%;
+  }
+ul.submenu a.state-published:hover,
+.selected ul.submenu .state-published {
+    color: #fff !important;
+}
