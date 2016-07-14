@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Fix TinyMCE JS
+- Remove skins
 
 0.0.8 (2013-12-31)
 ------------------
