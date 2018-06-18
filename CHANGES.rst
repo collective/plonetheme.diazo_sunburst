@@ -4,6 +4,8 @@ Changelog
 0.1.3 (unreleased)
 ------------------
 
+- Updated diazo theme manifest file [macagua]
+
 - Added a GenericSetup Uninstall profile [macagua]
 
 0.1.2 (2016-07-14)
