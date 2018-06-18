@@ -4,6 +4,8 @@ Changelog
 0.1.3 (unreleased)
 ------------------
 
+- Added improvements about README file [macagua]
+
 - Updated diazo theme manifest file [macagua]
 
 - Added a GenericSetup Uninstall profile [macagua]
