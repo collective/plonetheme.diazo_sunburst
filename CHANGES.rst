@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.1.3 (unreleased)
+------------------
+
+- Added a GenericSetup Uninstall profile [macagua]
+
 0.1.2 (2016-07-14)
 ------------------
 
