@@ -16,7 +16,7 @@
     <genericsetup:registerProfile
         name="uninstall"
         directory="profiles/uninstall"
-        title="plonetheme.diazo_sunburst: Uninstall profile for Plone 4 Diazo Theme"
+        title="plonetheme.diazo_sunburst Uninstall"
         description="Uninstall the plonetheme.diazo_sunburst package"
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
