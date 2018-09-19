@@ -96,5 +96,4 @@ Credits
 
 .. _`Plone`: http://plone.org
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
-.. _`darkened`: http://www.freecsstemplates.org/preview/darkened/
 .. _`Diazo`: http://diazo.org
